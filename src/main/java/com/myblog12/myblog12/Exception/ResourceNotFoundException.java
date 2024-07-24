@@ -1,0 +1,9 @@
+package com.myblog12.myblog12.Exception;
+
+public class ResourceNotFoundException extends  RuntimeException{
+
+    public ResourceNotFoundException(String message) {
+
+        super(message);
+    }
+}
